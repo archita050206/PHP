@@ -11,5 +11,9 @@ echo $f1."\n";
 $dec=5.64;
 $b=(integer)$dec;
 echo gettype($b)."\n";
-echo $b;
+echo $b."\n";
+
+$str=" ";
+$tt=(bool)$str;
+echo var_dump($tt);
 ?>
