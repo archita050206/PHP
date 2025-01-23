@@ -19,4 +19,9 @@ while($i<$len){
     echo $arr[$i];
     $i++;
 }
+$j=0;
+do{
+    echo $arr[$j];
+    $j++;
+}while($j<$len)
 ?>
