@@ -14,4 +14,9 @@ for($i=0;$i<$len;$i++){
 for($i=0;$i<$len;$i++){
     echo $arr1[$i]." ";
 }
+$i=0;
+while($i<$len){
+    echo $arr[$i];
+    $i++;
+}
 ?>
