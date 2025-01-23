@@ -9,19 +9,24 @@ echo "Sum: $sum"."\n";
 $len=(int)readline("Enter the length of the array: ");//reading user input
 $arr1=[];
 for($i=0;$i<$len;$i++){
-    $arr1[$i]=(int)readline("Enter value");
+    $arr1[$i]=(int)readline("Enter value: ");
 }
 for($i=0;$i<$len;$i++){
     echo $arr1[$i]." ";
 }
 $i=0;
 while($i<$len){
-    echo $arr[$i];
+    echo $arr1[$i];
     $i++;
-}
+}echo "\n";
 $j=0;
 do{
-    echo $arr[$j];
+    echo $arr1[$j];
     $j++;
-}while($j<$len)
+}while($j<$len);
+echo "\n";
+
+foreach($arr1 as $k){
+    echo $k." ";
+}
 ?>
