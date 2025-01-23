@@ -1,5 +1,13 @@
 <?php
-$arr=[[1,2,3],[4,6],[7,8,9]];
+$arr=[];
+$rows=(int)readline("enter number of rows: ");
+$col=(int)readline("enter numer of columns: ");
+for($i=0;$i<$rows;$i++){
+    for($j=0;$j<$col;$j++){
+        $arr[$i][$j]=(int)readline();
+    }
+}
+
 for($i=0;$i<count($arr);$i++){
     for($j=0;$j<count($arr[$i]);$j++){
         echo $arr[$i][$j]." ";
