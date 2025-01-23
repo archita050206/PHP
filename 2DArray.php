@@ -15,4 +15,17 @@ foreach($arr as $a){
     }
     echo "\n";
 }
+$flag=false;
+$key=(int)readline("Enter the element to search for: ");
+for($i=0;$i<count($arr);$i++){
+    for($j=0;$j<count($arr[$i]);$j++){
+        if($arr[$i][$j]==$key){
+            echo "Element at row $i and column $j";
+            $flag=true;
+            break;
+        }
+
+    }
+}
+if(!$flag)echo "Element not found!";
 ?>
