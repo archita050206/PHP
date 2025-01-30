@@ -10,4 +10,8 @@ switch($num){
     default:
     echo "Any other number"; 
 }
+echo "\n";
+if(!false){
+    echo "if statement works";
+}
 ?>

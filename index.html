@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with database</title>
+    <style>
+    fieldset{
+        
+        margin: 20px 500px;
+        background-color: red;
+  animation-name: example;
+  animation-duration: 8s;
+animation-iteration-count: 50;
+
+    }
+    @keyframes example {
+    0% { background-color: rgb(234, 249, 155); }
+    25% { background-color: rgb(156, 156, 250); }
+    50% { background-color: rgb(97, 247, 207); }
+    750% { background-color: rgb(116, 215, 248); }
+    100% { background-color: rgb(234, 249, 155); }
+}
+    div{
+        padding: 10px 0px;
+    }
+    .field1{
+        width: 300px;
+        height: 40px;
+    }
+    input{
+        border-radius: 12px;
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <form action="store.php" method="POST">
+        <fieldset>
+        <div>Name: <input type="text" name="username" class="field1"></div> 
+        <div>Password: <input type="password" name="password" class="field1"></div> 
+        <div>Male: <input type="radio" name="gender" value="M" checked></div> 
+        <div>Female: <input type="radio" name="gender" value="F"></div> 
+        <div>Phone: <input type="number" class="field1" name="phone"></div>
+        <button>Submit</button>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
