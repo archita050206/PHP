@@ -8,21 +8,13 @@
     fieldset{
         
         margin: 20px 500px;
-        background-color: red;
-  animation-name: example;
-  animation-duration: 8s;
-animation-iteration-count: 50;
+        background-color: rgb(131, 218, 216);
+  
 
     }
-    @keyframes example {
-    0% { background-color: rgb(234, 249, 155); }
-    25% { background-color: rgb(156, 156, 250); }
-    50% { background-color: rgb(97, 247, 207); }
-    750% { background-color: rgb(116, 215, 248); }
-    100% { background-color: rgb(234, 249, 155); }
-}
+    
     div{
-        padding: 10px 0px;
+        padding: 10px 10px;
     }
     .field1{
         width: 300px;
@@ -42,6 +34,7 @@ animation-iteration-count: 50;
         <div>Male: <input type="radio" name="gender" value="M" checked></div> 
         <div>Female: <input type="radio" name="gender" value="F"></div> 
         <div>Phone: <input type="number" class="field1" name="phone"></div>
+        <div>Age: <input type="number" class="field1" name="age"></div>
         <button>Submit</button>
     </fieldset>
     </form>

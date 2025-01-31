@@ -16,8 +16,10 @@ $username=$_POST['username'];
 $password=$_POST['password'];
 $gender=$_POST['gender'];
 $phone=$_POST['phone'];
-$sql="INSERT INTO user(username,password,gender,phone) VALUES ('$username','$password','$gender','$phone')";
+$age=$_POST['age'];
+$sql="INSERT INTO user(username,password,gender,phone) VALUES ('$username','$password','$gender','$phone','$age')";
 if(mysqli_query($con,$sql)){
     echo "data inserted successfully";
 }
+
 ?>
