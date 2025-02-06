@@ -23,5 +23,5 @@ else if($arr[$n]=="Sunday"){
     echo "Today is Sunday\n";
 }
 $name=(string)readline("enter your name: ");
-echo $name;
+echo "\$name";
 ?>
