@@ -21,5 +21,7 @@ $sql="INSERT INTO user(username,password,gender,phone) VALUES ('$username','$pas
 if(mysqli_query($con,$sql)){
     echo "data inserted successfully";
 }
-
+//submit the data from our end: post (secure)
+// get data from db: post
 ?>
+
