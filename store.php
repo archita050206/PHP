@@ -14,6 +14,7 @@ if(!mysqli_select_db($con,'myform1')){
 }
 $username=$_POST['username'];
 $password=$_POST['password'];
+$email=$_POST['email'];
 $gender=$_POST['gender'];
 $phone=$_POST['phone'];
 $age=$_POST['age'];

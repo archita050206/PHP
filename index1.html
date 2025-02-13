@@ -27,15 +27,11 @@
 </style>
 </head>
 <body>
-    <form action="store.php" method="POST">
+    <form action="sanitization.php" method="POST">
         <fieldset>
-        <div>Name: <input type="text" name="username" class="field1"></div> 
-        <div>Password: <input type="password" name="password" class="field1"></div> 
+        
         <div>Email: <input type="text" name="email" class="field1"></div>
-        <div>Male: <input type="radio" name="gender" value="M" checked></div>  
-        <div>Female: <input type="radio" name="gender" value="F"></div>  
-        <div>Phone: <input type="number" class="field1" name="phone"></div> 
-        <div>Age: <input type="number" class="field1" name="age"></div> 
+        <div>Phone Number: <input type="text" name="number" class="field1"></div>
         <button>Submit</button>
     </fieldset>
     </form>
