@@ -5,12 +5,12 @@
 //fetch data from form
 // insert data into table
 //verification of query successful
-$con=mysqli_connect('localhost','root','');
+$con=mysqli_connect('localhost','root','');//connection
 if(!$con){
-echo "Not connected";
+echo "Not connected";//verification of connection
 }
 if(!mysqli_select_db($con,'myform1')){
-    echo "database not selected";
+    echo "database not selected";//database insertion
 }
 $username=$_POST['username'];
 $password=$_POST['password'];
