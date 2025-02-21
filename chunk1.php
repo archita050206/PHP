@@ -18,4 +18,4 @@ print_r(array_slice($a3,2,3));//slicing from the given index till the 2nd index
 
 $result=array(array("name"=>"karan","roll"=>45),array("name"=>"archita","roll"=>46));
 print_r(array_column($result,"name"));
-?>
+?>m, 
