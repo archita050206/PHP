@@ -15,4 +15,6 @@ $f1=5.4;
 $f2=4.7;
 $sum1=$f1+$f2;
 echo "The sum is: $sum1\n";
+echo var_dump($sum1);
+echo gettype($sum1)."\n";
 ?>
