@@ -50,6 +50,9 @@
 
 
 <?php
+
+//INSERT STATEMENT
+
 $servername='localhost';
 $username='root';
 $password="";
