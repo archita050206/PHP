@@ -6,8 +6,8 @@
 
 
 // Set cookies (name => value, expiry time in seconds, path)
-setcookie("user", "JohnDoe", time() + 3600, "/");   // Expires in 1 hour
-setcookie("email", "john@example.com", time() + 3600, "/");
+//setcookie("user", "JohnDoe", time() + 3600, "/");   // Expires in 1 hour
+//setcookie("email", "john@example.com", time() + 3600, "/");
 ?>
 
 <!DOCTYPE html>

@@ -9,8 +9,8 @@ if(mail($to,$subject,$message,$headers)){
 } else{
     echo "<h1>Mail was not sent</h1>";
 }
-
-// if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['sent_email'])){
+?>
+<!-- // if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['sent_email'])){
 //     $to = sanitize($_POST['reciever']);
 //     $subject = sanitize($_POST['subject']);
 //     $message = sanitize($_POST['message']);
@@ -20,13 +20,13 @@ if(mail($to,$subject,$message,$headers)){
 //     } else{
 //         echo "<h1>Mail was not sent </h1>";
 //     }
-// }
+// } -->
 
 
-// function sanitize($data){
+<!-- // function sanitize($data){
 //     return htmlspecialchars($data);
 // }
-// ?>
+//  -->
 
 <!-- // <form method="post">
 //     Reciever: <input type="email" name="reciever"><br><br>
